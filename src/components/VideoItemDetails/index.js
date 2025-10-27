@@ -228,7 +228,7 @@ class VideoItemDetails extends Component {
           const videoItemdetailsView = () => (
             <div>
               <VideoPlayer
-                url={videoUrl}
+                url="https://youtu.be/H1frBzuWqqM?list=RDxLalxOPXPA8"
                 controls
                 config={{
                   youtube: {
