@@ -230,7 +230,7 @@ export const VideosMainContainer = styled.ul`
 
    @media screen and (max-width: 576px){
       padding: 20px;
-      margin-left:50px;
+      margin-left:20px;
     }
 `
 export const VideosListContainer = styled.li`

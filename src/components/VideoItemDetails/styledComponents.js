@@ -270,7 +270,11 @@ export const Links = styled(Link)`
   color: inherit;
 `
 export const LinkIconsCursor = styled.div`
-   cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 `
 
 export const PopupConatiner = styled.div`

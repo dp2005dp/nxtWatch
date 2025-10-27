@@ -193,6 +193,10 @@ export const TrendingContent = styled.h1`
 export const TredingVideosMainContainer = styled.ul`
   height: 70vh;
   overflow-y: scroll;
+
+  @media screen and (max-width: 576px){
+     padding: 10px;
+    }
 `
 export const TredingVideosListContainer = styled.li`
   list-style-type: none;
@@ -204,7 +208,7 @@ export const TredingVideosListContainer = styled.li`
    @media screen and (max-width: 576px){
       display: flex;
       flex-direction: column;
-      margin-left: 25px;
+      margin-left: 15px;
     }
 `
 export const TredingVideosImage = styled.img`
