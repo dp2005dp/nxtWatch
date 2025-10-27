@@ -40,6 +40,7 @@ import {
   LikeButton,
   LikeResposiveContainer,
   Links,
+  LinkIconsCursor,
   PopupConatiner,
   PopupContent,
   CancelButton,
@@ -227,15 +228,10 @@ class VideoItemDetails extends Component {
 
           const videoItemdetailsView = () => (
             <div>
-              <VideoPlayer
-                url="https://youtu.be/H1frBzuWqqM?list=RDxLalxOPXPA8"
-                controls
-                config={{
-                  youtube: {
-                    playerVars: {modestbranding: 1, rel: 0 ,  origin: window.location.origin,},
-                  },
-                }}
-              />
+              <VideoPlayer  src={`https://www.youtube.com/embed/${videoUrl.split("v=")[1]}`}
+              title={`${title}` }frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen />
 
               <VideoItemTitle isTheme={isDarkTheme}>{title}</VideoItemTitle>
 
@@ -252,7 +248,9 @@ class VideoItemDetails extends Component {
 
                 <LikeResposiveContainer>
                   <LikeButton>
-                    <AiOutlineLike color={like} size={20} />
+                    <LinkIconsCursor>
+                    <AiOutlineLike color={like} size={20}  onClick={likeButton}/>
+                    </LinkIconsCursor>
                     <LikesContent
                       activeLike={isAlreadyLiked}
                       type="button"
@@ -263,7 +261,9 @@ class VideoItemDetails extends Component {
                   </LikeButton>
 
                   <LikeButton>
-                    <BiDislike color={disLike} size={20} />
+                      <LinkIconsCursor>
+                    <BiDislike color={disLike} size={20}   onClick={disLikeButton}/>
+                     </LinkIconsCursor>
                     <LikesContent
                       activeLike={isDisLiked}
                       type="button"
@@ -274,7 +274,9 @@ class VideoItemDetails extends Component {
                   </LikeButton>
 
                   <LikeButton>
-                    <RiMenuUnfoldFill color={saveColor} size={20} />
+                     <LinkIconsCursor>
+                    <RiMenuUnfoldFill color={saveColor} size={20}   onClick={saveButton}/>
+                    </LinkIconsCursor>
                     <LikesContent
                       activeLike={isAlreadySaved}
                       type="button"

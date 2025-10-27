@@ -229,8 +229,8 @@ export const VideosMainContainer = styled.ul`
   margin: 0px;
 
    @media screen and (max-width: 576px){
-       padding: 10px;
-        
+      padding: 20px;
+      margin-left:50px;
     }
 `
 export const VideosListContainer = styled.li`
@@ -452,7 +452,7 @@ export const BannerContent = styled.p`
 `
 export const BannerButton = styled.button`
   height: 35px;
-  width: 100px;
+  width: 120px;
   background-color: transparent;
   color: #181818;
   font-family: 'Roboto';

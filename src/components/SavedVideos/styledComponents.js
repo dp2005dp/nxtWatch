@@ -204,6 +204,7 @@ export const TredingVideosListContainer = styled.li`
    @media screen and (max-width: 576px){
       display: flex;
       flex-direction: column;
+      margin-left: 25px;
     }
 `
 export const TredingVideosImage = styled.img`

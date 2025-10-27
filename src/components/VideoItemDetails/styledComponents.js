@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom'
-import ReactPlayer from 'react-player'
 import {FaMoon} from 'react-icons/fa'
 import {IoIosSunny, IoMdMenu} from 'react-icons/io'
 import styled from 'styled-components'
@@ -270,6 +269,10 @@ export const Links = styled(Link)`
   text-decoration: none;
   color: inherit;
 `
+export const LinkIconsCursor = styled.div`
+   cursor: pointer;
+`
+
 export const PopupConatiner = styled.div`
   background-color: ${props => (props.isTheme ? '#ffffff' : '#313131')};
   box-shadow: 0px 4px 16px ${props =>
@@ -474,7 +477,7 @@ export const MobileFeaturesPopContainer = styled.div`
           display : none;
        }
 `
-export const VideoPlayer = styled(ReactPlayer)`
+export const VideoPlayer = styled.iframe`
      
     position: relative;
     width: 100%;
@@ -500,5 +503,10 @@ export const VideoPlayer = styled(ReactPlayer)`
        @media (min-width: 770px) {
         width: 100% !important;
         height:500px !important;
+      }
+
+       @media (min-width: 900px) {
+        width: 1000 !important;
+        height:400px !important;
       }
 `

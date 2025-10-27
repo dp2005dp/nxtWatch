@@ -214,8 +214,9 @@ export const GamingVideosListContainer = styled.li`
   margin-bottom: 20px;
 
   @media screen and (max-width: 576px){
-       margin-left : 20px;
+       margin-left : 30px;
        margin-bottom: 20px;
+       
   }
 `
 export const GamingVideosImage = styled.img`
