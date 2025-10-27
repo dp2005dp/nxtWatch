@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nxtWatch/static/css/main.6edc149a.css",
-    "main.js": "/nxtWatch/static/js/main.fd623091.js",
+    "main.js": "/nxtWatch/static/js/main.3a0a3f46.js",
     "index.html": "/nxtWatch/index.html",
     "main.6edc149a.css.map": "/nxtWatch/static/css/main.6edc149a.css.map",
-    "main.fd623091.js.map": "/nxtWatch/static/js/main.fd623091.js.map"
+    "main.3a0a3f46.js.map": "/nxtWatch/static/js/main.3a0a3f46.js.map"
   },
   "entrypoints": [
     "static/css/main.6edc149a.css",
-    "static/js/main.fd623091.js"
+    "static/js/main.3a0a3f46.js"
   ]
 }
