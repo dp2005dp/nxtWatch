@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nxtWatch/static/css/main.3ce23c5e.css",
-    "main.js": "/nxtWatch/static/js/main.af394842.js",
+    "main.js": "/nxtWatch/static/js/main.973b993c.js",
     "reactPlayerHls.js": "/nxtWatch/static/js/reactPlayerHls.1ef821cd.chunk.js",
     "reactPlayerDash.js": "/nxtWatch/static/js/reactPlayerDash.dae72c8d.chunk.js",
     "reactPlayerMux.js": "/nxtWatch/static/js/reactPlayerMux.44b84df1.chunk.js",
@@ -17,7 +17,7 @@
     "static/js/788.fcbe1eba.chunk.js": "/nxtWatch/static/js/788.fcbe1eba.chunk.js",
     "index.html": "/nxtWatch/index.html",
     "main.3ce23c5e.css.map": "/nxtWatch/static/css/main.3ce23c5e.css.map",
-    "main.af394842.js.map": "/nxtWatch/static/js/main.af394842.js.map",
+    "main.973b993c.js.map": "/nxtWatch/static/js/main.973b993c.js.map",
     "reactPlayerHls.1ef821cd.chunk.js.map": "/nxtWatch/static/js/reactPlayerHls.1ef821cd.chunk.js.map",
     "reactPlayerDash.dae72c8d.chunk.js.map": "/nxtWatch/static/js/reactPlayerDash.dae72c8d.chunk.js.map",
     "reactPlayerMux.44b84df1.chunk.js.map": "/nxtWatch/static/js/reactPlayerMux.44b84df1.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.3ce23c5e.css",
-    "static/js/main.af394842.js"
+    "static/js/main.973b993c.js"
   ]
 }
